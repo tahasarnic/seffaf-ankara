@@ -1,6 +1,4 @@
 # Paketler
-from cProfile import label
-from turtle import width
 import streamlit as st
 from streamlit_folium import folium_static
 import pandas as pd
