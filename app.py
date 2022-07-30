@@ -13,19 +13,19 @@ st.set_page_config(layout="wide")
 
 ## DB
 # Veri setleri
-sosyal_yardim = pd.read_csv('/Users/terens/Desktop/seffaf-ankara/data/stats/sosyal_yardim.csv')
-sosyal = pd.read_csv('/Users/terens/Desktop/seffaf-ankara/data/stats/sosyal.csv')
-halk_ekmek = pd.read_csv('/Users/terens/Desktop/seffaf-ankara/data/stats/halk_ekmek.csv')
-kent_konsey = pd.read_csv('/Users/terens/Desktop/seffaf-ankara/data/stats/kent_konsey.csv')
-ulasim = pd.read_csv('/Users/terens/Desktop/seffaf-ankara/data/stats/ulasim.csv')
-demografik = pd.read_csv('/Users/terens/Desktop/seffaf-ankara/data/stats/demografi.csv')
+sosyal_yardim = pd.read_csv('data/stats/sosyal_yardim.csv')
+sosyal = pd.read_csv('data/stats/sosyal.csv')
+halk_ekmek = pd.read_csv('data/stats/halk_ekmek.csv')
+kent_konsey = pd.read_csv('data/stats/kent_konsey.csv')
+ulasim = pd.read_csv('data/stats/ulasim.csv')
+demografik = pd.read_csv('data/stats/demografi.csv')
 # Geojson
-sosyal_yardim_geo = gpd.read_file('/Users/terens/Desktop/seffaf-ankara/data/geojson/sosyal_yardim.json')
-sosyal_geo = gpd.read_file('/Users/terens/Desktop/seffaf-ankara/data/geojson/sosyal.json')
-halk_ekmek_geo = gpd.read_file('/Users/terens/Desktop/seffaf-ankara/data/geojson/halk_ekmek.json')
-kent_konsey_geo = gpd.read_file('/Users/terens/Desktop/seffaf-ankara/data/geojson/kent_konsey.json')
-ulasim_geo = gpd.read_file('/Users/terens/Desktop/seffaf-ankara/data/geojson/ulasim.json')
-demografik_geo = gpd.read_file('/Users/terens/Desktop/seffaf-ankara/data/geojson/demografi.json')
+sosyal_yardim_geo = gpd.read_file('data/geojson/sosyal_yardim.json')
+sosyal_geo = gpd.read_file('data/geojson/sosyal.json')
+halk_ekmek_geo = gpd.read_file('data/geojson/halk_ekmek.json')
+kent_konsey_geo = gpd.read_file('data/geojson/kent_konsey.json')
+ulasim_geo = gpd.read_file('data/geojson/ulasim.json')
+demografik_geo = gpd.read_file('data/geojson/demografi.json')
 
 
 ## Web app giriş
@@ -33,7 +33,7 @@ ank_col1, ank_col2, ank_col3 = st.columns([1,3,1])
 with ank_col1:
     st.write("")
 with ank_col2:
-    st.image('/Users/terens/Desktop/seffaf-ankara/img/ankara.png')
+    st.image('img/ankara.png')
 with ank_col3:
     st.write("")
 
