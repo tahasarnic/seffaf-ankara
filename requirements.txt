@@ -1,5 +1,6 @@
 pandas
 streamlit
+streamlit_folium
 geopandas
 folium
 plotly
